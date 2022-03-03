@@ -11,6 +11,7 @@ API E2E automation for the user login and register with Java with TestNG
 * The reason behind the chosen framework and pattern
     * Java and Maven:  Rest Assured enables you to test REST APIs using java libraries and integrates well with Maven.
     * Rest Assured.io framework has made JSON complexities simple using core java basics.     
+    * TestNG: Many plugins are integrated with TestNG , Writing tests with TestNG is very simple
 
 * How to make the framework work and how to execute the test
     *   Clone a copy of the `Quandoo-API-e2e` repo locally
@@ -20,6 +21,7 @@ API E2E automation for the user login and register with Java with TestNG
          * Or go to the select `Run/Debug configuration` and select `Run as TestNG` from the drop down and `Run` 
 
 * View test output report
+    *  Run the test first;
     *  Go to the `test-output` directory
     *  Right click on the `emailable-report.html` file
     *  Open in > Browser > Chrome
